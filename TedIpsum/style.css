@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url("https://static.wikia.nocookie.net/lineofduty/images/d/dd/E.Hastings_S6.jpg");
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #eff4f5;
+}
+h3 {
+  color: #eff4f5;
+  font-size: 1.4rem;
+}
+button {
+  border: 0;
+  background: #79a3b1;
+  color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+}
+input {
+  padding: 1rem;
+  width: 300px;
+  border: 0;
+}
+.section-center {
+  width: 500px;
+  margin: 0 auto;
+}
+.result {
+  color: #20374b;
+  background-color: #cddadd;
+  padding: 4px 5px;
+  border-radius: 4px;
+}
